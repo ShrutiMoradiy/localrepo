@@ -25,7 +25,23 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #282c34;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+.icon {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #2e86c1;
 }
 
 @keyframes App-logo-spin {
