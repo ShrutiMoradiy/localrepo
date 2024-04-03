@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextResponse } from "next/navigation";
 
 export function middleware(request) {
     console.log("middleware");
