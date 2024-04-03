@@ -15,7 +15,7 @@ export default function Student({
                 Day of Lecture {params.lecture[0]}
             </h1>
             <h3>Lecture No. {params.lecture[1]}</h3>
-            <button className="border p-2 rounded m-10" onClick={() => router.push("/study")}>Study</button>
+            <button className="border p-2 rounded m-10" onClick={() => router.push("/")}>Home</button>
 
         </div>
     )
