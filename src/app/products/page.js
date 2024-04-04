@@ -1,4 +1,5 @@
 import ProductModule from "./product";
+import User from "../../component/user"
 
 async function product () {
     let data = await fetch("https://dummyjson.com/products")
@@ -12,10 +13,12 @@ export default async function page() {
     
   return (
     <div className="flex flex-col justify-between p-24">
+       <User />
       <h1 className='text-3xl mb-2'>Product List</h1>
       {
         products.map((item) => (
             <div>
+             
               <h3 className="mt-2" key={item}>Name : {item.title}</h3>
               
               <ProductModule Price={item.price}/>
